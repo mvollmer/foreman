@@ -7,14 +7,11 @@ tmp/
 jenkins/reports/*
 test/reports/*
 db/schema.rb
-config/settings.yaml
 config/ignored_environments.yml
 config/settings.plugins.d
-config/database.yml
 config/initializers/local_secret_token.rb
 config/initializers/encryption_key.rb
 Gemfile.lock
-bundler.d/*.local.rb
 *.sw?
 .idea
 *.pyc

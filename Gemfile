@@ -55,3 +55,6 @@ gem 'get_process_mem'
 Dir["#{File.dirname(FOREMAN_GEMFILE)}/bundler.d/*.rb"].each do |bundle|
   self.instance_eval(Bundler.read_file(bundle))
 end
+
+# Added at 2018-08-16 14:29:10 +0300 by root:
+gem "rdoc", "~> 6.0"
